@@ -1,0 +1,12 @@
+language: python
+
+python:
+  - "3.6"
+  - "3.7"
+
+script: 
+  - python TestCalculate.py
+
+deploy:
+ on:
+    repo: 00657106/GitExample
