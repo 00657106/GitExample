@@ -20,4 +20,7 @@ deploy:
     secure: $HEROKU_API_KEY
   app: test-my-travisci-project
   on:
-    repo:00657106/GitExample
+    repo: 00657106/GitExample
+    branches:    
+      only:     
+        - master
