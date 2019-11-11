@@ -4,9 +4,20 @@ python:
   - "3.6"
   - "3.7"
 
+
+install:
+  - pip install -r requirements.txt
+  
+script: true
+  - nosetests --with-coverage --coverage report
+  
 script: 
   - python TestCalculate.py
 
 deploy:
- on:
-    repo: 00657106/GitExample
+  provider: heroku
+  api_key:
+    secure: $HEROKU_API_KEY
+  app: test-my-travisci-project
+  on:
+    repo:00657106/GitExample
