@@ -1,2 +1,1 @@
-# GitExample
-Learning how to use git.
+https://travis-ci.org/00657106/GitExample.svg?branch=master
