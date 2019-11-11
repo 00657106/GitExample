@@ -21,6 +21,4 @@ deploy:
   app: test-my-travisci-project
   on:
     repo: 00657106/GitExample
-    branches:    
-      only:     
-        - master
+
