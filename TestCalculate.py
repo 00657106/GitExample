@@ -4,7 +4,7 @@ class TestCalculate(unittest.TestCase):
     def test_int_add(self):
         self.assertEqual(calculate.add(8, 9), 17)
     def test_float_add(self):
-        self.assertEqual(calculate.add(8.7, 9.1), 17.8)
+       self.assertEqual(calculate.add(8.7, 9.3), 18.0)
     def test_int_decrease(self):
         self.assertEqual(calculate.decrease(9, 3), 6)
     def test_float_decrease(self):
