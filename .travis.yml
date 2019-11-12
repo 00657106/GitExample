@@ -18,7 +18,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: 11a898eebb548abee46c7ae752080d51697dfd9b
+    secure: b2f1307c9ff36088328a37753e7678bd999201de
   app: test-my-travisci-project0
   on:
     repo: 00657106/GitExample
