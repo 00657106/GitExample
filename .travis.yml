@@ -13,11 +13,3 @@ script: true
   
 script: 
   - python TestCalculate.py
-
-deploy:
-  provider: heroku
-  api_key:
-    secure: a22b0e87-4967-4f62-9e61-06fa916da954/d14b2fb3-cc57-4b4b-8567-d3b970185c17
-  app: test-my-travisci-project0
-  on:
-    repo: 00657106/GitExample
